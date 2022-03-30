@@ -3,11 +3,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are married."
+            "test_case": [
+                "They are teachers.",
+                "They are married."
             ],
-            "targets": [
+            "target": [
                 "teachers",
                 "married"
             ],
@@ -24,11 +24,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are opened."
+            "test_case": [
+                "They are teachers.",
+                "They are opened."
             ],
-            "targets": [
+            "target": [
                 "teachers",
                 "opened"
             ],
@@ -39,17 +39,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are closed."
+            "test_case": [
+                "They are teachers.",
+                "They are closed."
             ],
-            "targets": [
+            "target": [
                 "teachers",
                 "closed"
             ],
@@ -66,13 +66,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are done."
+            "test_case": [
+                "They are teachers.",
+                "They are seen."
             ],
-            "targets": [
+            "target": [
                 "teachers",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -81,17 +81,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are hit."
+            "test_case": [
+                "They are teachers.",
+                "They are hit."
             ],
-            "targets": [
+            "target": [
                 "teachers",
                 "hit"
             ],
@@ -108,11 +108,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are thinking."
+            "test_case": [
+                "They are teachers.",
+                "They are thinking."
             ],
-            "targets": [
+            "target": [
                 "teachers",
                 "thinking"
             ],
@@ -129,11 +129,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are teachers.",
-                "We are singing."
+            "test_case": [
+                "They are teachers.",
+                "They are singing."
             ],
-            "targets": [
+            "target": [
                 "teachers",
                 "singing"
             ],
@@ -150,11 +150,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are married."
+            "test_case": [
+                "They are leaders.",
+                "They are married."
             ],
-            "targets": [
+            "target": [
                 "leaders",
                 "married"
             ],
@@ -171,11 +171,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are opened."
+            "test_case": [
+                "They are leaders.",
+                "They are opened."
             ],
-            "targets": [
+            "target": [
                 "leaders",
                 "opened"
             ],
@@ -186,17 +186,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are closed."
+            "test_case": [
+                "They are leaders.",
+                "They are closed."
             ],
-            "targets": [
+            "target": [
                 "leaders",
                 "closed"
             ],
@@ -213,13 +213,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are done."
+            "test_case": [
+                "They are leaders.",
+                "They are seen."
             ],
-            "targets": [
+            "target": [
                 "leaders",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -228,17 +228,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are hit."
+            "test_case": [
+                "They are leaders.",
+                "They are hit."
             ],
-            "targets": [
+            "target": [
                 "leaders",
                 "hit"
             ],
@@ -255,11 +255,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are thinking."
+            "test_case": [
+                "They are leaders.",
+                "They are thinking."
             ],
-            "targets": [
+            "target": [
                 "leaders",
                 "thinking"
             ],
@@ -276,11 +276,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are leaders.",
-                "We are singing."
+            "test_case": [
+                "They are leaders.",
+                "They are singing."
             ],
-            "targets": [
+            "target": [
                 "leaders",
                 "singing"
             ],
@@ -297,11 +297,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are married."
+            "test_case": [
+                "They are safe.",
+                "They are married."
             ],
-            "targets": [
+            "target": [
                 "safe",
                 "married"
             ],
@@ -318,11 +318,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are opened."
+            "test_case": [
+                "They are safe.",
+                "They are opened."
             ],
-            "targets": [
+            "target": [
                 "safe",
                 "opened"
             ],
@@ -333,17 +333,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are closed."
+            "test_case": [
+                "They are safe.",
+                "They are closed."
             ],
-            "targets": [
+            "target": [
                 "safe",
                 "closed"
             ],
@@ -360,13 +360,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are done."
+            "test_case": [
+                "They are safe.",
+                "They are seen."
             ],
-            "targets": [
+            "target": [
                 "safe",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -375,17 +375,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are hit."
+            "test_case": [
+                "They are safe.",
+                "They are hit."
             ],
-            "targets": [
+            "target": [
                 "safe",
                 "hit"
             ],
@@ -402,11 +402,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are thinking."
+            "test_case": [
+                "They are safe.",
+                "They are thinking."
             ],
-            "targets": [
+            "target": [
                 "safe",
                 "thinking"
             ],
@@ -423,11 +423,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are safe.",
-                "We are singing."
+            "test_case": [
+                "They are safe.",
+                "They are singing."
             ],
-            "targets": [
+            "target": [
                 "safe",
                 "singing"
             ],
@@ -444,11 +444,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are married."
+            "test_case": [
+                "They are open.",
+                "They are married."
             ],
-            "targets": [
+            "target": [
                 "open",
                 "married"
             ],
@@ -465,11 +465,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are opened."
+            "test_case": [
+                "They are open.",
+                "They are opened."
             ],
-            "targets": [
+            "target": [
                 "open",
                 "opened"
             ],
@@ -480,17 +480,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are closed."
+            "test_case": [
+                "They are open.",
+                "They are closed."
             ],
-            "targets": [
+            "target": [
                 "open",
                 "closed"
             ],
@@ -507,13 +507,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are done."
+            "test_case": [
+                "They are open.",
+                "They are seen."
             ],
-            "targets": [
+            "target": [
                 "open",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -522,17 +522,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are hit."
+            "test_case": [
+                "They are open.",
+                "They are hit."
             ],
-            "targets": [
+            "target": [
                 "open",
                 "hit"
             ],
@@ -549,11 +549,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are thinking."
+            "test_case": [
+                "They are open.",
+                "They are thinking."
             ],
-            "targets": [
+            "target": [
                 "open",
                 "thinking"
             ],
@@ -570,11 +570,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are open.",
-                "We are singing."
+            "test_case": [
+                "They are open.",
+                "They are singing."
             ],
-            "targets": [
+            "target": [
                 "open",
                 "singing"
             ],
@@ -591,11 +591,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are married"
+            "test_case": [
+                "They are close",
+                "They are married"
             ],
-            "targets": [
+            "target": [
                 "close",
                 "married"
             ],
@@ -612,11 +612,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are opened"
+            "test_case": [
+                "They are close",
+                "They are opened"
             ],
-            "targets": [
+            "target": [
                 "close",
                 "opened"
             ],
@@ -627,17 +627,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are closed"
+            "test_case": [
+                "They are close",
+                "They are closed"
             ],
-            "targets": [
+            "target": [
                 "close",
                 "closed"
             ],
@@ -654,13 +654,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are done"
+            "test_case": [
+                "They are close",
+                "They are seen"
             ],
-            "targets": [
+            "target": [
                 "close",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -669,17 +669,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are hit"
+            "test_case": [
+                "They are close",
+                "They are hit"
             ],
-            "targets": [
+            "target": [
                 "close",
                 "hit"
             ],
@@ -690,17 +690,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are thinking"
+            "test_case": [
+                "They are close",
+                "They are thinking"
             ],
-            "targets": [
+            "target": [
                 "close",
                 "thinking"
             ],
@@ -717,11 +717,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are close",
-                "We are singing"
+            "test_case": [
+                "They are close",
+                "They are singing"
             ],
-            "targets": [
+            "target": [
                 "close",
                 "singing"
             ],
@@ -738,11 +738,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are married."
+            "test_case": [
+                "They are excited.",
+                "They are married."
             ],
-            "targets": [
+            "target": [
                 "excited",
                 "married"
             ],
@@ -759,11 +759,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are opened."
+            "test_case": [
+                "They are excited.",
+                "They are opened."
             ],
-            "targets": [
+            "target": [
                 "excited",
                 "opened"
             ],
@@ -774,17 +774,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are closed."
+            "test_case": [
+                "They are excited.",
+                "They are closed."
             ],
-            "targets": [
+            "target": [
                 "excited",
                 "closed"
             ],
@@ -801,13 +801,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are done."
+            "test_case": [
+                "They are excited.",
+                "They are seen."
             ],
-            "targets": [
+            "target": [
                 "excited",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -816,17 +816,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are hit."
+            "test_case": [
+                "They are excited.",
+                "They are hit."
             ],
-            "targets": [
+            "target": [
                 "excited",
                 "hit"
             ],
@@ -843,11 +843,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are thinking."
+            "test_case": [
+                "They are excited.",
+                "They are thinking."
             ],
-            "targets": [
+            "target": [
                 "excited",
                 "thinking"
             ],
@@ -864,11 +864,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are excited.",
-                "We are singing."
+            "test_case": [
+                "They are excited.",
+                "They are singing."
             ],
-            "targets": [
+            "target": [
                 "excited",
                 "singing"
             ],
@@ -885,11 +885,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are married."
+            "test_case": [
+                "They are concerned.",
+                "They are married."
             ],
-            "targets": [
+            "target": [
                 "concerned",
                 "married"
             ],
@@ -906,11 +906,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are opened."
+            "test_case": [
+                "They are concerned.",
+                "They are opened."
             ],
-            "targets": [
+            "target": [
                 "concerned",
                 "opened"
             ],
@@ -921,17 +921,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are closed."
+            "test_case": [
+                "They are concerned.",
+                "They are closed."
             ],
-            "targets": [
+            "target": [
                 "concerned",
                 "closed"
             ],
@@ -948,13 +948,13 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are done."
+            "test_case": [
+                "They are concerned.",
+                "They are seen."
             ],
-            "targets": [
+            "target": [
                 "concerned",
-                "done"
+                "seen"
             ],
             "expected_label": [
                 "ARG2",
@@ -963,17 +963,17 @@
             "model": "bert",
             "prediction": [
                 "ARG2",
-                "ARG2"
+                "O"
             ]
         },
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are hit."
+            "test_case": [
+                "They are concerned.",
+                "They are hit."
             ],
-            "targets": [
+            "target": [
                 "concerned",
                 "hit"
             ],
@@ -990,11 +990,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are thinking."
+            "test_case": [
+                "They are concerned.",
+                "They are thinking."
             ],
-            "targets": [
+            "target": [
                 "concerned",
                 "thinking"
             ],
@@ -1011,11 +1011,11 @@
         {
             "capability": "be_disambiguation",
             "test_type": "DIR",
-            "perturbed_sentences": [
-                "We are concerned.",
-                "We are singing."
+            "test_case": [
+                "They are concerned.",
+                "They are singing."
             ],
-            "targets": [
+            "target": [
                 "concerned",
                 "singing"
             ],
@@ -1032,11 +1032,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in fashion.",
                 "I work in Amsterdam."
             ],
-            "targets": [
+            "target": [
                 "fashion",
                 "Amsterdam"
             ],
@@ -1053,11 +1053,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in fashion.",
                 "I work in this district."
             ],
-            "targets": [
+            "target": [
                 "fashion",
                 "this district"
             ],
@@ -1074,11 +1074,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in fashion.",
                 "I work in another country."
             ],
-            "targets": [
+            "target": [
                 "fashion",
                 "another country"
             ],
@@ -1095,11 +1095,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in fashion.",
                 "I work in New York."
             ],
-            "targets": [
+            "target": [
                 "fashion",
                 "New York"
             ],
@@ -1116,11 +1116,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in fashion.",
                 "I work in Narnia."
             ],
-            "targets": [
+            "target": [
                 "fashion",
                 "Narnia"
             ],
@@ -1137,11 +1137,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in sports.",
                 "I work in Amsterdam."
             ],
-            "targets": [
+            "target": [
                 "sports",
                 "Amsterdam"
             ],
@@ -1158,11 +1158,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in sports.",
                 "I work in this district."
             ],
-            "targets": [
+            "target": [
                 "sports",
                 "this district"
             ],
@@ -1179,11 +1179,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in sports.",
                 "I work in another country."
             ],
-            "targets": [
+            "target": [
                 "sports",
                 "another country"
             ],
@@ -1200,11 +1200,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in sports.",
                 "I work in New York."
             ],
-            "targets": [
+            "target": [
                 "sports",
                 "New York"
             ],
@@ -1221,11 +1221,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in sports.",
                 "I work in Narnia."
             ],
-            "targets": [
+            "target": [
                 "sports",
                 "Narnia"
             ],
@@ -1242,11 +1242,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in this industry.",
                 "I work in Amsterdam."
             ],
-            "targets": [
+            "target": [
                 "this industry",
                 "Amsterdam"
             ],
@@ -1263,11 +1263,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in this industry.",
                 "I work in this district."
             ],
-            "targets": [
+            "target": [
                 "this industry",
                 "this district"
             ],
@@ -1284,11 +1284,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in this industry.",
                 "I work in another country."
             ],
-            "targets": [
+            "target": [
                 "this industry",
                 "another country"
             ],
@@ -1305,11 +1305,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in this industry.",
                 "I work in New York."
             ],
-            "targets": [
+            "target": [
                 "this industry",
                 "New York"
             ],
@@ -1326,11 +1326,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in this industry.",
                 "I work in Narnia."
             ],
-            "targets": [
+            "target": [
                 "this industry",
                 "Narnia"
             ],
@@ -1347,11 +1347,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the media sector.",
                 "I work in Amsterdam."
             ],
-            "targets": [
+            "target": [
                 "the media sector",
                 "Amsterdam"
             ],
@@ -1368,11 +1368,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the media sector.",
                 "I work in this district."
             ],
-            "targets": [
+            "target": [
                 "the media sector",
                 "this district"
             ],
@@ -1389,11 +1389,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the media sector.",
                 "I work in another country."
             ],
-            "targets": [
+            "target": [
                 "the media sector",
                 "another country"
             ],
@@ -1410,11 +1410,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the media sector.",
                 "I work in New York."
             ],
-            "targets": [
+            "target": [
                 "the media sector",
                 "New York"
             ],
@@ -1431,11 +1431,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the media sector.",
                 "I work in Narnia."
             ],
-            "targets": [
+            "target": [
                 "the media sector",
                 "Narnia"
             ],
@@ -1452,11 +1452,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the medical field.",
                 "I work in Amsterdam."
             ],
-            "targets": [
+            "target": [
                 "the medical field",
                 "Amsterdam"
             ],
@@ -1473,11 +1473,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the medical field.",
                 "I work in this district."
             ],
-            "targets": [
+            "target": [
                 "the medical field",
                 "this district"
             ],
@@ -1494,11 +1494,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the medical field.",
                 "I work in another country."
             ],
-            "targets": [
+            "target": [
                 "the medical field",
                 "another country"
             ],
@@ -1515,11 +1515,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the medical field.",
                 "I work in New York."
             ],
-            "targets": [
+            "target": [
                 "the medical field",
                 "New York"
             ],
@@ -1536,11 +1536,11 @@
         {
             "capability": "location_recognition",
             "test_type": "DIR",
-            "perturbed_sentences": [
+            "test_case": [
                 "I work in the medical field.",
                 "I work in Narnia."
             ],
-            "targets": [
+            "target": [
                 "the medical field",
                 "Narnia"
             ],
@@ -1557,8 +1557,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no morals.",
-            "target": "morals",
+            "test_case": "I have no morals.",
+            "target": [
+                "morals"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1566,8 +1568,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no plans.",
-            "target": "plans",
+            "test_case": "I have no plans.",
+            "target": [
+                "plans"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1575,8 +1579,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no income.",
-            "target": "income",
+            "test_case": "I have no income.",
+            "target": [
+                "income"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1584,8 +1590,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no power.",
-            "target": "power",
+            "test_case": "I have no power.",
+            "target": [
+                "power"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1593,8 +1601,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no option.",
-            "target": "option",
+            "test_case": "I have no option.",
+            "target": [
+                "option"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1602,8 +1612,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no regrets.",
-            "target": "regrets",
+            "test_case": "I have no regrets.",
+            "target": [
+                "regrets"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1611,8 +1623,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no strategy.",
-            "target": "strategy",
+            "test_case": "I have no strategy.",
+            "target": [
+                "strategy"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1620,8 +1634,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no boyfriend.",
-            "target": "boyfriend",
+            "test_case": "I have no boyfriend.",
+            "target": [
+                "boyfriend"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1629,8 +1645,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no voice.",
-            "target": "voice",
+            "test_case": "I have no voice.",
+            "target": [
+                "voice"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1638,8 +1656,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no money.",
-            "target": "money",
+            "test_case": "I have no money.",
+            "target": [
+                "money"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1647,8 +1667,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no more.",
-            "target": "more",
+            "test_case": "I have no more.",
+            "target": [
+                "more"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1656,8 +1678,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no memory.",
-            "target": "memory",
+            "test_case": "I have no memory.",
+            "target": [
+                "memory"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1665,8 +1689,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no answers.",
-            "target": "answers",
+            "test_case": "I have no answers.",
+            "target": [
+                "answers"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1674,8 +1700,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no control.",
-            "target": "control",
+            "test_case": "I have no control.",
+            "target": [
+                "control"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1683,8 +1711,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no interest.",
-            "target": "interest",
+            "test_case": "I have no interest.",
+            "target": [
+                "interest"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1692,8 +1722,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no ideas.",
-            "target": "ideas",
+            "test_case": "I have no ideas.",
+            "target": [
+                "ideas"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1701,8 +1733,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no clue.",
-            "target": "clue",
+            "test_case": "I have no clue.",
+            "target": [
+                "clue"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1710,8 +1744,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no time.",
-            "target": "time",
+            "test_case": "I have no time.",
+            "target": [
+                "time"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1719,8 +1755,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no hope.",
-            "target": "hope",
+            "test_case": "I have no hope.",
+            "target": [
+                "hope"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1728,8 +1766,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no fear.",
-            "target": "fear",
+            "test_case": "I have no fear.",
+            "target": [
+                "fear"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1737,8 +1777,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no explanation.",
-            "target": "explanation",
+            "test_case": "I have no explanation.",
+            "target": [
+                "explanation"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1746,8 +1788,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no job.",
-            "target": "job",
+            "test_case": "I have no job.",
+            "target": [
+                "job"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1755,8 +1799,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no interest.",
-            "target": "interest",
+            "test_case": "I have no interest.",
+            "target": [
+                "interest"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1764,8 +1810,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no gun.",
-            "target": "gun",
+            "test_case": "I have no gun.",
+            "target": [
+                "gun"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1773,8 +1821,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no willpower.",
-            "target": "willpower",
+            "test_case": "I have no willpower.",
+            "target": [
+                "willpower"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1782,8 +1832,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no willpower.",
-            "target": "willpower",
+            "test_case": "I have no willpower.",
+            "target": [
+                "willpower"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1791,8 +1843,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no husband.",
-            "target": "husband",
+            "test_case": "I have no husband.",
+            "target": [
+                "husband"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1800,8 +1854,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no privacy.",
-            "target": "privacy",
+            "test_case": "I have no privacy.",
+            "target": [
+                "privacy"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1809,8 +1865,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no prospects.",
-            "target": "prospects",
+            "test_case": "I have no prospects.",
+            "target": [
+                "prospects"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1818,8 +1876,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no words.",
-            "target": "words",
+            "test_case": "I have no words.",
+            "target": [
+                "words"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1827,8 +1887,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no power.",
-            "target": "power",
+            "test_case": "I have no power.",
+            "target": [
+                "power"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1836,8 +1898,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no answer.",
-            "target": "answer",
+            "test_case": "I have no answer.",
+            "target": [
+                "answer"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1845,8 +1909,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no home.",
-            "target": "home",
+            "test_case": "I have no home.",
+            "target": [
+                "home"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1854,8 +1920,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no expectations.",
-            "target": "expectations",
+            "test_case": "I have no expectations.",
+            "target": [
+                "expectations"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1863,8 +1931,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no plan.",
-            "target": "plan",
+            "test_case": "I have no plan.",
+            "target": [
+                "plan"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1872,8 +1942,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no energy.",
-            "target": "energy",
+            "test_case": "I have no energy.",
+            "target": [
+                "energy"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1881,8 +1953,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no money.",
-            "target": "money",
+            "test_case": "I have no money.",
+            "target": [
+                "money"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1890,8 +1964,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no choice.",
-            "target": "choice",
+            "test_case": "I have no choice.",
+            "target": [
+                "choice"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1899,8 +1975,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no choices.",
-            "target": "choices",
+            "test_case": "I have no choices.",
+            "target": [
+                "choices"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1908,8 +1986,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no complaints.",
-            "target": "complaints",
+            "test_case": "I have no complaints.",
+            "target": [
+                "complaints"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1917,8 +1997,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no future.",
-            "target": "future",
+            "test_case": "I have no future.",
+            "target": [
+                "future"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1926,8 +2008,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no parents.",
-            "target": "parents",
+            "test_case": "I have no parents.",
+            "target": [
+                "parents"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1935,8 +2019,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no words.",
-            "target": "words",
+            "test_case": "I have no words.",
+            "target": [
+                "words"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1944,8 +2030,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no ambition.",
-            "target": "ambition",
+            "test_case": "I have no ambition.",
+            "target": [
+                "ambition"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1953,8 +2041,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no income.",
-            "target": "income",
+            "test_case": "I have no income.",
+            "target": [
+                "income"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1962,8 +2052,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no alternative.",
-            "target": "alternative",
+            "test_case": "I have no alternative.",
+            "target": [
+                "alternative"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1971,8 +2063,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no memory.",
-            "target": "memory",
+            "test_case": "I have no memory.",
+            "target": [
+                "memory"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1980,8 +2074,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no friends.",
-            "target": "friends",
+            "test_case": "I have no friends.",
+            "target": [
+                "friends"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1989,8 +2085,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no resources.",
-            "target": "resources",
+            "test_case": "I have no resources.",
+            "target": [
+                "resources"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -1998,8 +2096,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no one.",
-            "target": "one",
+            "test_case": "I have no one.",
+            "target": [
+                "one"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2007,8 +2107,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no say.",
-            "target": "say",
+            "test_case": "I have no say.",
+            "target": [
+                "say"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2016,8 +2118,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no energy.",
-            "target": "energy",
+            "test_case": "I have no energy.",
+            "target": [
+                "energy"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2025,8 +2129,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no friends.",
-            "target": "friends",
+            "test_case": "I have no friends.",
+            "target": [
+                "friends"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2034,8 +2140,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no gun.",
-            "target": "gun",
+            "test_case": "I have no gun.",
+            "target": [
+                "gun"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2043,8 +2151,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no identity.",
-            "target": "identity",
+            "test_case": "I have no identity.",
+            "target": [
+                "identity"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2052,8 +2162,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no questions.",
-            "target": "questions",
+            "test_case": "I have no questions.",
+            "target": [
+                "questions"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2061,8 +2173,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no more.",
-            "target": "more",
+            "test_case": "I have no more.",
+            "target": [
+                "more"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2070,8 +2184,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no name.",
-            "target": "name",
+            "test_case": "I have no name.",
+            "target": [
+                "name"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2079,8 +2195,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no business.",
-            "target": "business",
+            "test_case": "I have no business.",
+            "target": [
+                "business"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2088,8 +2206,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no direction.",
-            "target": "direction",
+            "test_case": "I have no direction.",
+            "target": [
+                "direction"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2097,8 +2217,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no proof.",
-            "target": "proof",
+            "test_case": "I have no proof.",
+            "target": [
+                "proof"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2106,8 +2228,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no daughter.",
-            "target": "daughter",
+            "test_case": "I have no daughter.",
+            "target": [
+                "daughter"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2115,8 +2239,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no conscience.",
-            "target": "conscience",
+            "test_case": "I have no conscience.",
+            "target": [
+                "conscience"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2124,8 +2250,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no boyfriend.",
-            "target": "boyfriend",
+            "test_case": "I have no boyfriend.",
+            "target": [
+                "boyfriend"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2133,8 +2261,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no gun.",
-            "target": "gun",
+            "test_case": "I have no gun.",
+            "target": [
+                "gun"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2142,8 +2272,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no control.",
-            "target": "control",
+            "test_case": "I have no control.",
+            "target": [
+                "control"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2151,8 +2283,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no problems.",
-            "target": "problems",
+            "test_case": "I have no problems.",
+            "target": [
+                "problems"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2160,8 +2294,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no willpower.",
-            "target": "willpower",
+            "test_case": "I have no willpower.",
+            "target": [
+                "willpower"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2169,8 +2305,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no answer.",
-            "target": "answer",
+            "test_case": "I have no answer.",
+            "target": [
+                "answer"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2178,8 +2316,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no name.",
-            "target": "name",
+            "test_case": "I have no name.",
+            "target": [
+                "name"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2187,8 +2327,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no control.",
-            "target": "control",
+            "test_case": "I have no control.",
+            "target": [
+                "control"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2196,8 +2338,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no plan.",
-            "target": "plan",
+            "test_case": "I have no plan.",
+            "target": [
+                "plan"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2205,8 +2349,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no power.",
-            "target": "power",
+            "test_case": "I have no power.",
+            "target": [
+                "power"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2214,8 +2360,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no patience.",
-            "target": "patience",
+            "test_case": "I have no patience.",
+            "target": [
+                "patience"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2223,8 +2371,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no life.",
-            "target": "life",
+            "test_case": "I have no life.",
+            "target": [
+                "life"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2232,8 +2382,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no excuse.",
-            "target": "excuse",
+            "test_case": "I have no excuse.",
+            "target": [
+                "excuse"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2241,8 +2393,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no morals.",
-            "target": "morals",
+            "test_case": "I have no morals.",
+            "target": [
+                "morals"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2250,8 +2404,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no energy.",
-            "target": "energy",
+            "test_case": "I have no energy.",
+            "target": [
+                "energy"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2259,8 +2415,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no clothes.",
-            "target": "clothes",
+            "test_case": "I have no clothes.",
+            "target": [
+                "clothes"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2268,8 +2426,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no weapon.",
-            "target": "weapon",
+            "test_case": "I have no weapon.",
+            "target": [
+                "weapon"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2277,8 +2437,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no future.",
-            "target": "future",
+            "test_case": "I have no future.",
+            "target": [
+                "future"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2286,8 +2448,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no enemies.",
-            "target": "enemies",
+            "test_case": "I have no enemies.",
+            "target": [
+                "enemies"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2295,8 +2459,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no agenda.",
-            "target": "agenda",
+            "test_case": "I have no agenda.",
+            "target": [
+                "agenda"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2304,8 +2470,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no family.",
-            "target": "family",
+            "test_case": "I have no family.",
+            "target": [
+                "family"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2313,8 +2481,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no life.",
-            "target": "life",
+            "test_case": "I have no life.",
+            "target": [
+                "life"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2322,8 +2492,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no conscience.",
-            "target": "conscience",
+            "test_case": "I have no conscience.",
+            "target": [
+                "conscience"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2331,8 +2503,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no willpower.",
-            "target": "willpower",
+            "test_case": "I have no willpower.",
+            "target": [
+                "willpower"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2340,8 +2514,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no control.",
-            "target": "control",
+            "test_case": "I have no control.",
+            "target": [
+                "control"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2349,8 +2525,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no memory.",
-            "target": "memory",
+            "test_case": "I have no memory.",
+            "target": [
+                "memory"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2358,8 +2536,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no credibility.",
-            "target": "credibility",
+            "test_case": "I have no credibility.",
+            "target": [
+                "credibility"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2367,8 +2547,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no excuses.",
-            "target": "excuses",
+            "test_case": "I have no excuses.",
+            "target": [
+                "excuses"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2376,8 +2558,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no chance.",
-            "target": "chance",
+            "test_case": "I have no chance.",
+            "target": [
+                "chance"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2385,8 +2569,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no response.",
-            "target": "response",
+            "test_case": "I have no response.",
+            "target": [
+                "response"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2394,8 +2580,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no enemies.",
-            "target": "enemies",
+            "test_case": "I have no enemies.",
+            "target": [
+                "enemies"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2403,8 +2591,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no parents.",
-            "target": "parents",
+            "test_case": "I have no parents.",
+            "target": [
+                "parents"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2412,8 +2602,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no life.",
-            "target": "life",
+            "test_case": "I have no life.",
+            "target": [
+                "life"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2421,8 +2613,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no feeling.",
-            "target": "feeling",
+            "test_case": "I have no feeling.",
+            "target": [
+                "feeling"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2430,8 +2624,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no purpose.",
-            "target": "purpose",
+            "test_case": "I have no purpose.",
+            "target": [
+                "purpose"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2439,8 +2635,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no budget.",
-            "target": "budget",
+            "test_case": "I have no budget.",
+            "target": [
+                "budget"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2448,8 +2646,10 @@
         {
             "capability": "negating_arg1",
             "test_type": "MFT",
-            "sentence": "I have no friends.",
-            "target": "friends",
+            "test_case": "I have no friends.",
+            "target": [
+                "friends"
+            ],
             "expected_label": "ARG1",
             "model": "bert",
             "prediction": "ARG1"
@@ -2457,11 +2657,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They roll them.",
                 "They roll."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2475,11 +2675,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They bounce them.",
                 "They bounce."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2493,11 +2693,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They swing them.",
                 "They swing."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2511,11 +2711,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They break them.",
                 "They break."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2529,11 +2729,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They chip them.",
                 "They chip."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2547,11 +2747,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They crack them.",
                 "They crack."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2565,11 +2765,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They bend them.",
                 "They bend."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2583,11 +2783,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They crease them.",
                 "They crease."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2601,11 +2801,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They crinkle them.",
                 "They crinkle."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2619,11 +2819,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They cheer them.",
                 "They cheer."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2637,11 +2837,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They delight them.",
                 "They delight."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2655,11 +2855,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They thrill them.",
                 "They thrill."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2673,11 +2873,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They blunt them.",
                 "They blunt."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2691,11 +2891,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They clear them.",
                 "They clear."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2709,11 +2909,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They clean them.",
                 "They clean."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2727,11 +2927,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They blacken them.",
                 "They blacken."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2745,11 +2945,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They redden them.",
                 "They redden."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2763,11 +2963,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They grey them.",
                 "They grey."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2781,11 +2981,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They awaken them.",
                 "They awaken."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2799,11 +2999,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They brighten them.",
                 "They brighten."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2817,11 +3017,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They broaden them.",
                 "They broaden."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2835,11 +3035,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They solidify them.",
                 "They solidify."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2853,11 +3053,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They stratify them.",
                 "They stratify."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2871,11 +3071,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They emulsify them.",
                 "They emulsify."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2889,11 +3089,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They democratize them.",
                 "They democratize."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2907,11 +3107,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They decentralize them.",
                 "They decentralize."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2925,11 +3125,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They crystallize them.",
                 "They crystallize."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2943,11 +3143,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They accelerate them.",
                 "They accelerate."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2961,11 +3161,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They ameliorate them.",
                 "They ameliorate."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2979,11 +3179,11 @@
         {
             "capability": "theme_in_causative_alternation",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "They operate them.",
                 "They operate."
             ],
-            "targets": [
+            "target": [
                 "them",
                 "They"
             ],
@@ -2997,11 +3197,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I sign the letter.",
                 "The letter is signed."
             ],
-            "targets": [
+            "target": [
                 "letter",
                 "letter"
             ],
@@ -3015,11 +3215,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I sign the card.",
                 "The card is signed."
             ],
-            "targets": [
+            "target": [
                 "card",
                 "card"
             ],
@@ -3033,11 +3233,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I sign the contract.",
                 "The contract is signed."
             ],
-            "targets": [
+            "target": [
                 "contract",
                 "contract"
             ],
@@ -3051,11 +3251,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I sign the poster.",
                 "The poster is signed."
             ],
-            "targets": [
+            "target": [
                 "poster",
                 "poster"
             ],
@@ -3069,11 +3269,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I sign the Harry Potter.",
                 "The Harry Potter is signed."
             ],
-            "targets": [
+            "target": [
                 "Harry Potter",
                 "Harry Potter"
             ],
@@ -3087,11 +3287,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I send the letter.",
                 "The letter is sent."
             ],
-            "targets": [
+            "target": [
                 "letter",
                 "letter"
             ],
@@ -3105,11 +3305,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I send the card.",
                 "The card is sent."
             ],
-            "targets": [
+            "target": [
                 "card",
                 "card"
             ],
@@ -3123,11 +3323,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I send the contract.",
                 "The contract is sent."
             ],
-            "targets": [
+            "target": [
                 "contract",
                 "contract"
             ],
@@ -3141,11 +3341,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I send the poster.",
                 "The poster is sent."
             ],
-            "targets": [
+            "target": [
                 "poster",
                 "poster"
             ],
@@ -3159,11 +3359,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I send the Harry Potter.",
                 "The Harry Potter is sent."
             ],
-            "targets": [
+            "target": [
                 "Harry Potter",
                 "Harry Potter"
             ],
@@ -3177,11 +3377,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I read the letter.",
                 "The letter is read."
             ],
-            "targets": [
+            "target": [
                 "letter",
                 "letter"
             ],
@@ -3195,11 +3395,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I read the card.",
                 "The card is read."
             ],
-            "targets": [
+            "target": [
                 "card",
                 "card"
             ],
@@ -3213,11 +3413,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I read the contract.",
                 "The contract is read."
             ],
-            "targets": [
+            "target": [
                 "contract",
                 "contract"
             ],
@@ -3231,11 +3431,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I read the poster.",
                 "The poster is read."
             ],
-            "targets": [
+            "target": [
                 "poster",
                 "poster"
             ],
@@ -3249,11 +3449,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I read the Harry Potter.",
                 "The Harry Potter is read."
             ],
-            "targets": [
+            "target": [
                 "Harry Potter",
                 "Harry Potter"
             ],
@@ -3267,11 +3467,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I tear the letter.",
                 "The letter is torn."
             ],
-            "targets": [
+            "target": [
                 "letter",
                 "letter"
             ],
@@ -3285,11 +3485,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I tear the card.",
                 "The card is torn."
             ],
-            "targets": [
+            "target": [
                 "card",
                 "card"
             ],
@@ -3303,11 +3503,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I tear the contract.",
                 "The contract is torn."
             ],
-            "targets": [
+            "target": [
                 "contract",
                 "contract"
             ],
@@ -3321,11 +3521,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I tear the poster.",
                 "The poster is torn."
             ],
-            "targets": [
+            "target": [
                 "poster",
                 "poster"
             ],
@@ -3339,11 +3539,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I tear the Harry Potter.",
                 "The Harry Potter is torn."
             ],
-            "targets": [
+            "target": [
                 "Harry Potter",
                 "Harry Potter"
             ],
@@ -3357,11 +3557,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I burn the letter.",
                 "The letter is burned."
             ],
-            "targets": [
+            "target": [
                 "letter",
                 "letter"
             ],
@@ -3375,11 +3575,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I burn the card.",
                 "The card is burned."
             ],
-            "targets": [
+            "target": [
                 "card",
                 "card"
             ],
@@ -3393,11 +3593,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I burn the contract.",
                 "The contract is burned."
             ],
-            "targets": [
+            "target": [
                 "contract",
                 "contract"
             ],
@@ -3411,11 +3611,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I burn the poster.",
                 "The poster is burned."
             ],
-            "targets": [
+            "target": [
                 "poster",
                 "poster"
             ],
@@ -3429,11 +3629,11 @@
         {
             "capability": "arg1_in_passive",
             "test_type": "INV",
-            "perturbed_sentences": [
+            "test_case": [
                 "I burn the Harry Potter.",
                 "The Harry Potter is burned."
             ],
-            "targets": [
+            "target": [
                 "Harry Potter",
                 "Harry Potter"
             ],

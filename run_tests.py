@@ -10,8 +10,8 @@ def extract_data_for_test(examples, test):
     data = []
     meta = []
     for e in example_list:
-        data.append(e['perturbed_sentences'])
-        meta.append(tuple(e['targets']))
+        data.append(e['test_case'])
+        meta.append(tuple(e['target']))
     example_dict = {"data": data, "meta": meta}
     return example_list, example_dict
 
@@ -121,7 +121,7 @@ expect_fn5 = Expect.pairwise(compare_spans_inv_passive)
 
 def found_arg1_object(x, pred, conf, label=None, meta=None):
     # object should be recognized as arg1
-    object = meta['mask'][0]
+    object = meta[0]
     arg1 = get_arg(pred, arg_target='ARG1')
 
     if object in arg1:  # if the object is one of the 'ARG1' words
@@ -144,7 +144,7 @@ def get_tag_from_array(pair_id, sent_id, verb_id, token_id):
 
 # Read in data
 # Read in challenge set data
-with open('srl_challenge_set.json') as f:
+with open('data/srl_challenge_set.json') as f:
     data = json.load(f)
     examples = data['data']
 
@@ -155,13 +155,7 @@ be_disam_list, be_disam_dict = extract_data_for_test(examples, "be_disambiguatio
 locrec_list, locrec_dict = extract_data_for_test(examples, "location_recognition")
 
 # Extracting data for negating_arg1
-negating_arg1_list = [e for e in examples if e['capability'] == "negating_arg1"]
-data = []
-meta = []
-for e in negating_arg1_list:
-    data.append(e['sentence'])
-    meta.append({"mask": [e['target']]})
-negating_arg1_dict = {"data": data, "meta": meta}
+negating_arg1_list, negating_arg1_dict = extract_data_for_test(examples, "negating_arg1")
 
 # Extracting data for theme_in_causative_alternation
 causalt_list, causalt_dict = extract_data_for_test(examples, "theme_in_causative_alternation")
@@ -253,6 +247,6 @@ for model in ['structured-prediction-srl', 'structured-prediction-srl-bert']:
 
     # Writing output to file
     output_dict['output'] = output
-    filename = f"output_{model_name}.json"
+    filename = f"output/output_{model_name}.json"
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(output_dict, f, ensure_ascii=False, indent=4)

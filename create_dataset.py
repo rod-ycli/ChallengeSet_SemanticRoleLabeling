@@ -14,7 +14,7 @@ challenge_set = {}
 
 def change_be_frame(x, meta=True, *args, **kwargs):
     comments = ['teachers', 'leaders', 'safe', 'open', 'close', 'excited', 'concerned']
-    verbs = ['married', 'opened', 'closed', 'done', 'hit', 'thinking', 'singing']
+    verbs = ['married', 'opened', 'closed', 'seen', 'hit', 'thinking', 'singing']
 
     ret = []
     ret_meta = []
@@ -30,13 +30,13 @@ def change_be_frame(x, meta=True, *args, **kwargs):
     else:
         return ret
 
-be_01_sents = ['We are teachers.',
-               'We are leaders.',
-               'We are safe.',
-               'We are open.',
-               'We are close',
-               'We are excited.',
-               'We are concerned.']
+be_01_sents = ['They are teachers.',
+               'They are leaders.',
+               'They are safe.',
+               'They are open.',
+               'They are close',
+               'They are excited.',
+               'They are concerned.']
 t_p = Perturb.perturb(be_01_sents, change_be_frame,
                       meta=True, keep_original=True, n_samples=1)
 
@@ -52,8 +52,8 @@ for comment in t_p['meta']:
 for i, sent in enumerate(sentences):
     example = {'capability': "be_disambiguation",
                'test_type': "DIR",
-               'perturbed_sentences': sent,
-               'targets': metas[i],
+               'test_case': sent,
+               'target': metas[i],
                'expected_label': ("ARG2", "O")}
     data.append(example)
 
@@ -98,8 +98,8 @@ for field in t_p['meta']:
 for i, sent in enumerate(sentences):
     example = {'capability': "location_recognition",
                'test_type': "DIR",
-               'perturbed_sentences': sent,
-               'targets': metas[i],
+               'test_case': sent,
+               'target': metas[i],
                'expected_label': ("ARG2", "ARGM-LOC")}
     data.append(example)
 
@@ -110,8 +110,8 @@ t = editor.template('I have no {mask}.', meta=True, nsamples=100)
 for i, sent in enumerate(t['data']):
     example = {'capability': "negating_arg1",
                'test_type': "MFT",
-               'sentence': sent,
-               'target': t['meta'][i]['mask'][0],
+               'test_case': sent,
+               'target': t['meta'][i]['mask'],
                'expected_label': "ARG1"}
     data.append(example)
 
@@ -127,8 +127,8 @@ intransitive = editor.template('They {verb}.', verb = verb)
 for i, sent in enumerate(transitive['data']):
     example = {'capability': "theme_in_causative_alternation",
                'test_type': "INV",
-               'perturbed_sentences': (sent, intransitive['data'][i]),
-               'targets': ("them", "They"),
+               'test_case': (sent, intransitive['data'][i]),
+               'target': ("them", "They"),
                'expected_label': "ARG1"}
     data.append(example)
 
@@ -145,13 +145,13 @@ meta = [(ar, ar) for av in averb for ar in arg]
 for i, sent in enumerate(active):
     example = {'capability': "arg1_in_passive",
                'test_type': "INV",
-               'perturbed_sentences': (sent, passive[i]),
-               'targets': meta[i],
+               'test_case': (sent, passive[i]),
+               'target': meta[i],
                'expected_label': "ARG1"}
     data.append(example)
 
 
 # Writing to json
 challenge_set['data'] = data
-with open("srl_challenge_set.json", 'w', encoding='utf-8') as f:
+with open("data/srl_challenge_set.json", 'w', encoding='utf-8') as f:
     json.dump(challenge_set, f, ensure_ascii=False, indent=4)
