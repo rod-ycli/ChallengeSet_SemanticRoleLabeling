@@ -1,0 +1,2 @@
+allennlp_models==2.9.0
+checklist==0.0.11

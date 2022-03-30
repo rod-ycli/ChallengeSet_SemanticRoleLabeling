@@ -1,0 +1,3448 @@
+{
+    "output": [
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are married."
+            ],
+            "targets": [
+                "teachers",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are opened."
+            ],
+            "targets": [
+                "teachers",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are closed."
+            ],
+            "targets": [
+                "teachers",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are done."
+            ],
+            "targets": [
+                "teachers",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are hit."
+            ],
+            "targets": [
+                "teachers",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are thinking."
+            ],
+            "targets": [
+                "teachers",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are teachers.",
+                "We are singing."
+            ],
+            "targets": [
+                "teachers",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are married."
+            ],
+            "targets": [
+                "leaders",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are opened."
+            ],
+            "targets": [
+                "leaders",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are closed."
+            ],
+            "targets": [
+                "leaders",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are done."
+            ],
+            "targets": [
+                "leaders",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are hit."
+            ],
+            "targets": [
+                "leaders",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are thinking."
+            ],
+            "targets": [
+                "leaders",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are leaders.",
+                "We are singing."
+            ],
+            "targets": [
+                "leaders",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are married."
+            ],
+            "targets": [
+                "safe",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are opened."
+            ],
+            "targets": [
+                "safe",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are closed."
+            ],
+            "targets": [
+                "safe",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are done."
+            ],
+            "targets": [
+                "safe",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are hit."
+            ],
+            "targets": [
+                "safe",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are thinking."
+            ],
+            "targets": [
+                "safe",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are safe.",
+                "We are singing."
+            ],
+            "targets": [
+                "safe",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are married."
+            ],
+            "targets": [
+                "open",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are opened."
+            ],
+            "targets": [
+                "open",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are closed."
+            ],
+            "targets": [
+                "open",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are done."
+            ],
+            "targets": [
+                "open",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are hit."
+            ],
+            "targets": [
+                "open",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are thinking."
+            ],
+            "targets": [
+                "open",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are open.",
+                "We are singing."
+            ],
+            "targets": [
+                "open",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are married"
+            ],
+            "targets": [
+                "close",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are opened"
+            ],
+            "targets": [
+                "close",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are closed"
+            ],
+            "targets": [
+                "close",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are done"
+            ],
+            "targets": [
+                "close",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are hit"
+            ],
+            "targets": [
+                "close",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are thinking"
+            ],
+            "targets": [
+                "close",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are close",
+                "We are singing"
+            ],
+            "targets": [
+                "close",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are married."
+            ],
+            "targets": [
+                "excited",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are opened."
+            ],
+            "targets": [
+                "excited",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are closed."
+            ],
+            "targets": [
+                "excited",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are done."
+            ],
+            "targets": [
+                "excited",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are hit."
+            ],
+            "targets": [
+                "excited",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are thinking."
+            ],
+            "targets": [
+                "excited",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are excited.",
+                "We are singing."
+            ],
+            "targets": [
+                "excited",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are married."
+            ],
+            "targets": [
+                "concerned",
+                "married"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are opened."
+            ],
+            "targets": [
+                "concerned",
+                "opened"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are closed."
+            ],
+            "targets": [
+                "concerned",
+                "closed"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are done."
+            ],
+            "targets": [
+                "concerned",
+                "done"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "ARG2"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are hit."
+            ],
+            "targets": [
+                "concerned",
+                "hit"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are thinking."
+            ],
+            "targets": [
+                "concerned",
+                "thinking"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "be_disambiguation",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "We are concerned.",
+                "We are singing."
+            ],
+            "targets": [
+                "concerned",
+                "singing"
+            ],
+            "expected_label": [
+                "ARG2",
+                "O"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG2",
+                "O"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in fashion.",
+                "I work in Amsterdam."
+            ],
+            "targets": [
+                "fashion",
+                "Amsterdam"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in fashion.",
+                "I work in this district."
+            ],
+            "targets": [
+                "fashion",
+                "this district"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in fashion.",
+                "I work in another country."
+            ],
+            "targets": [
+                "fashion",
+                "another country"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in fashion.",
+                "I work in New York."
+            ],
+            "targets": [
+                "fashion",
+                "New York"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in fashion.",
+                "I work in Narnia."
+            ],
+            "targets": [
+                "fashion",
+                "Narnia"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in sports.",
+                "I work in Amsterdam."
+            ],
+            "targets": [
+                "sports",
+                "Amsterdam"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in sports.",
+                "I work in this district."
+            ],
+            "targets": [
+                "sports",
+                "this district"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in sports.",
+                "I work in another country."
+            ],
+            "targets": [
+                "sports",
+                "another country"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in sports.",
+                "I work in New York."
+            ],
+            "targets": [
+                "sports",
+                "New York"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in sports.",
+                "I work in Narnia."
+            ],
+            "targets": [
+                "sports",
+                "Narnia"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in this industry.",
+                "I work in Amsterdam."
+            ],
+            "targets": [
+                "this industry",
+                "Amsterdam"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in this industry.",
+                "I work in this district."
+            ],
+            "targets": [
+                "this industry",
+                "this district"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in this industry.",
+                "I work in another country."
+            ],
+            "targets": [
+                "this industry",
+                "another country"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in this industry.",
+                "I work in New York."
+            ],
+            "targets": [
+                "this industry",
+                "New York"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in this industry.",
+                "I work in Narnia."
+            ],
+            "targets": [
+                "this industry",
+                "Narnia"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the media sector.",
+                "I work in Amsterdam."
+            ],
+            "targets": [
+                "the media sector",
+                "Amsterdam"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the media sector.",
+                "I work in this district."
+            ],
+            "targets": [
+                "the media sector",
+                "this district"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the media sector.",
+                "I work in another country."
+            ],
+            "targets": [
+                "the media sector",
+                "another country"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the media sector.",
+                "I work in New York."
+            ],
+            "targets": [
+                "the media sector",
+                "New York"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the media sector.",
+                "I work in Narnia."
+            ],
+            "targets": [
+                "the media sector",
+                "Narnia"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the medical field.",
+                "I work in Amsterdam."
+            ],
+            "targets": [
+                "the medical field",
+                "Amsterdam"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the medical field.",
+                "I work in this district."
+            ],
+            "targets": [
+                "the medical field",
+                "this district"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the medical field.",
+                "I work in another country."
+            ],
+            "targets": [
+                "the medical field",
+                "another country"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the medical field.",
+                "I work in New York."
+            ],
+            "targets": [
+                "the medical field",
+                "New York"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "location_recognition",
+            "test_type": "DIR",
+            "perturbed_sentences": [
+                "I work in the medical field.",
+                "I work in Narnia."
+            ],
+            "targets": [
+                "the medical field",
+                "Narnia"
+            ],
+            "expected_label": [
+                "ARG2",
+                "ARGM-LOC"
+            ],
+            "model": "bert",
+            "prediction": [
+                "ARGM-LOC",
+                "ARGM-LOC"
+            ]
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no morals.",
+            "target": "morals",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no plans.",
+            "target": "plans",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no income.",
+            "target": "income",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no power.",
+            "target": "power",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no option.",
+            "target": "option",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no regrets.",
+            "target": "regrets",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no strategy.",
+            "target": "strategy",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no boyfriend.",
+            "target": "boyfriend",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no voice.",
+            "target": "voice",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no money.",
+            "target": "money",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no more.",
+            "target": "more",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no memory.",
+            "target": "memory",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no answers.",
+            "target": "answers",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no control.",
+            "target": "control",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no interest.",
+            "target": "interest",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no ideas.",
+            "target": "ideas",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no clue.",
+            "target": "clue",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no time.",
+            "target": "time",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no hope.",
+            "target": "hope",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no fear.",
+            "target": "fear",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no explanation.",
+            "target": "explanation",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no job.",
+            "target": "job",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no interest.",
+            "target": "interest",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no gun.",
+            "target": "gun",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no willpower.",
+            "target": "willpower",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no willpower.",
+            "target": "willpower",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no husband.",
+            "target": "husband",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no privacy.",
+            "target": "privacy",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no prospects.",
+            "target": "prospects",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no words.",
+            "target": "words",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no power.",
+            "target": "power",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no answer.",
+            "target": "answer",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no home.",
+            "target": "home",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no expectations.",
+            "target": "expectations",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no plan.",
+            "target": "plan",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no energy.",
+            "target": "energy",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no money.",
+            "target": "money",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no choice.",
+            "target": "choice",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no choices.",
+            "target": "choices",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no complaints.",
+            "target": "complaints",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no future.",
+            "target": "future",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no parents.",
+            "target": "parents",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no words.",
+            "target": "words",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no ambition.",
+            "target": "ambition",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no income.",
+            "target": "income",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no alternative.",
+            "target": "alternative",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no memory.",
+            "target": "memory",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no friends.",
+            "target": "friends",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no resources.",
+            "target": "resources",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no one.",
+            "target": "one",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no say.",
+            "target": "say",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no energy.",
+            "target": "energy",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no friends.",
+            "target": "friends",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no gun.",
+            "target": "gun",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no identity.",
+            "target": "identity",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no questions.",
+            "target": "questions",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no more.",
+            "target": "more",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no name.",
+            "target": "name",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no business.",
+            "target": "business",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no direction.",
+            "target": "direction",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no proof.",
+            "target": "proof",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no daughter.",
+            "target": "daughter",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no conscience.",
+            "target": "conscience",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no boyfriend.",
+            "target": "boyfriend",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no gun.",
+            "target": "gun",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no control.",
+            "target": "control",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no problems.",
+            "target": "problems",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no willpower.",
+            "target": "willpower",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no answer.",
+            "target": "answer",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no name.",
+            "target": "name",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no control.",
+            "target": "control",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no plan.",
+            "target": "plan",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no power.",
+            "target": "power",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no patience.",
+            "target": "patience",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no life.",
+            "target": "life",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no excuse.",
+            "target": "excuse",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no morals.",
+            "target": "morals",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no energy.",
+            "target": "energy",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no clothes.",
+            "target": "clothes",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no weapon.",
+            "target": "weapon",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no future.",
+            "target": "future",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no enemies.",
+            "target": "enemies",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no agenda.",
+            "target": "agenda",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no family.",
+            "target": "family",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no life.",
+            "target": "life",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no conscience.",
+            "target": "conscience",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no willpower.",
+            "target": "willpower",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no control.",
+            "target": "control",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no memory.",
+            "target": "memory",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no credibility.",
+            "target": "credibility",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no excuses.",
+            "target": "excuses",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no chance.",
+            "target": "chance",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no response.",
+            "target": "response",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no enemies.",
+            "target": "enemies",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no parents.",
+            "target": "parents",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no life.",
+            "target": "life",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no feeling.",
+            "target": "feeling",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no purpose.",
+            "target": "purpose",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no budget.",
+            "target": "budget",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "negating_arg1",
+            "test_type": "MFT",
+            "sentence": "I have no friends.",
+            "target": "friends",
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": "ARG1"
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They roll them.",
+                "They roll."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They bounce them.",
+                "They bounce."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They swing them.",
+                "They swing."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They break them.",
+                "They break."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They chip them.",
+                "They chip."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They crack them.",
+                "They crack."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They bend them.",
+                "They bend."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They crease them.",
+                "They crease."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They crinkle them.",
+                "They crinkle."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They cheer them.",
+                "They cheer."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They delight them.",
+                "They delight."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They thrill them.",
+                "They thrill."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                ""
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They blunt them.",
+                "They blunt."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They clear them.",
+                "They clear."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                ""
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They clean them.",
+                "They clean."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They blacken them.",
+                "They blacken."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They redden them.",
+                "They redden."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They grey them.",
+                "They grey."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They awaken them.",
+                "They awaken."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They brighten them.",
+                "They brighten."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They broaden them.",
+                "They broaden."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They solidify them.",
+                "They solidify."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They stratify them.",
+                "They stratify."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They emulsify them.",
+                "They emulsify."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They democratize them.",
+                "They democratize."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They decentralize them.",
+                "They decentralize."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They crystallize them.",
+                "They crystallize."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They accelerate them.",
+                "They accelerate."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They ameliorate them.",
+                "They ameliorate."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG0"
+            ]
+        },
+        {
+            "capability": "theme_in_causative_alternation",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "They operate them.",
+                "They operate."
+            ],
+            "targets": [
+                "them",
+                "They"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I sign the letter.",
+                "The letter is signed."
+            ],
+            "targets": [
+                "letter",
+                "letter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I sign the card.",
+                "The card is signed."
+            ],
+            "targets": [
+                "card",
+                "card"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I sign the contract.",
+                "The contract is signed."
+            ],
+            "targets": [
+                "contract",
+                "contract"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I sign the poster.",
+                "The poster is signed."
+            ],
+            "targets": [
+                "poster",
+                "poster"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I sign the Harry Potter.",
+                "The Harry Potter is signed."
+            ],
+            "targets": [
+                "Harry Potter",
+                "Harry Potter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I send the letter.",
+                "The letter is sent."
+            ],
+            "targets": [
+                "letter",
+                "letter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I send the card.",
+                "The card is sent."
+            ],
+            "targets": [
+                "card",
+                "card"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I send the contract.",
+                "The contract is sent."
+            ],
+            "targets": [
+                "contract",
+                "contract"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I send the poster.",
+                "The poster is sent."
+            ],
+            "targets": [
+                "poster",
+                "poster"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I send the Harry Potter.",
+                "The Harry Potter is sent."
+            ],
+            "targets": [
+                "Harry Potter",
+                "Harry Potter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I read the letter.",
+                "The letter is read."
+            ],
+            "targets": [
+                "letter",
+                "letter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I read the card.",
+                "The card is read."
+            ],
+            "targets": [
+                "card",
+                "card"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I read the contract.",
+                "The contract is read."
+            ],
+            "targets": [
+                "contract",
+                "contract"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I read the poster.",
+                "The poster is read."
+            ],
+            "targets": [
+                "poster",
+                "poster"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I read the Harry Potter.",
+                "The Harry Potter is read."
+            ],
+            "targets": [
+                "Harry Potter",
+                "Harry Potter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I tear the letter.",
+                "The letter is torn."
+            ],
+            "targets": [
+                "letter",
+                "letter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I tear the card.",
+                "The card is torn."
+            ],
+            "targets": [
+                "card",
+                "card"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I tear the contract.",
+                "The contract is torn."
+            ],
+            "targets": [
+                "contract",
+                "contract"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I tear the poster.",
+                "The poster is torn."
+            ],
+            "targets": [
+                "poster",
+                "poster"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I tear the Harry Potter.",
+                "The Harry Potter is torn."
+            ],
+            "targets": [
+                "Harry Potter",
+                "Harry Potter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I burn the letter.",
+                "The letter is burned."
+            ],
+            "targets": [
+                "letter",
+                "letter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I burn the card.",
+                "The card is burned."
+            ],
+            "targets": [
+                "card",
+                "card"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I burn the contract.",
+                "The contract is burned."
+            ],
+            "targets": [
+                "contract",
+                "contract"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I burn the poster.",
+                "The poster is burned."
+            ],
+            "targets": [
+                "poster",
+                "poster"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        },
+        {
+            "capability": "arg1_in_passive",
+            "test_type": "INV",
+            "perturbed_sentences": [
+                "I burn the Harry Potter.",
+                "The Harry Potter is burned."
+            ],
+            "targets": [
+                "Harry Potter",
+                "Harry Potter"
+            ],
+            "expected_label": "ARG1",
+            "model": "bert",
+            "prediction": [
+                "ARG1",
+                "ARG1"
+            ]
+        }
+    ]
+}
