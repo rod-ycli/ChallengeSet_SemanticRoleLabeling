@@ -1,7 +1,7 @@
 # ChallengeSet_SemanticRoleLabeling
 Author: YC Roderick Li
 
-This project uses CHECKLIST (https://github.com/marcotcr/checklist) to create a linguistically-motivated challenge set for semantic role labeling systems and to test two pretrained SRL predictors in AllenNLP (https://github.com/allenai/allennlp). 
+This project uses CHECKLIST (https://github.com/marcotcr/checklist) to create a linguistically-motivated challenge set for semantic role labeling systems and to test two pretrained SRL predictors from AllenNLP (https://github.com/allenai/allennlp). 
 
 ## Step 1
 run `create_dataset.py`. A .json file consisting the test instances will be saved in the `/data` folder.
